@@ -1,0 +1,5 @@
+{
+    "Languages": ["PHP", "SQL", "JavaScript", "HTML", "CSS"],
+    "Frameworks": ["Laravel", "CodeIgniter", "Node.js", "Express.js", "Vue", "React", "Next.js"],
+    "Tools": ["Git", "SVN", "MongoDB", "Bootstrap", "Postman", "Command Line", "Chrome DevTools"]
+}
