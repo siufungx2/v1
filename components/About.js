@@ -1,5 +1,5 @@
-import Image from "next/image"
-import FungImg from "../assets/img/icon.JPG"
+// import Image from "next/image"
+// import FungImg from "../assets/img/icon.JPG"
 
 const About = () => {
     return (
@@ -14,7 +14,10 @@ const About = () => {
                         I have experience develop website, social media campaign, from basic tracking data to content management system.
                         I strive to create web that not only functions efficiently, but also performance and extandable.</p>
                     </div>
-                    <div className="col-3"><Image src={FungImg} className="img-thumbnail" alt="Fung" /></div>
+                    <div className="col-3">
+                        <img src={require('../assets/img/icon.jpg')} className="img-thumbnail" alt="Fung" />
+                        {/* <Image src={FungImg} className="img-thumbnail" alt="Fung" /> */}
+                    </div>
                 </div>
             </div>
         </section>
