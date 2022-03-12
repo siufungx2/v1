@@ -36,10 +36,10 @@
             "type": "job"
         },
         {
-            "title": "Freelance",
+            "title": "Freelancer",
             "company": "",
             "date": "2018 - Present",
-            "technology": ["PHP", "MYSQL", "jQuery", "CodeIgniter", "Bootstrap", "Vue", "Node", "Node"],
+            "technology": ["PHP", "MYSQL", "jQuery", "CodeIgniter", "Laravel", "Bootstrap", "Vue", "Node", "React"],
             "type": "job"
         }
     ]

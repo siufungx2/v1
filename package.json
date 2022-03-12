@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "homepage": "http://siufungx2.github.io/v1",
-  "type": "module",
   "scripts": {
     "dev": "next dev",
     "start": "next start",

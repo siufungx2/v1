@@ -1,3 +1,5 @@
+@import "typewriter";
+
 html,
 body {
   padding: 0;
@@ -34,7 +36,7 @@ nav#navbar a.nav-link.active{
 }
 
 section {
-  min-height: 100vh;
+  // min-height: 100vh;
 }
 
 section:nth-child(odd){
@@ -45,10 +47,16 @@ section:nth-child(even){
   background-color: #CDDEEE;
 }
 section:nth-child(1) {
-  background: url('/img/bg-intro.JPEG') no-repeat center center fixed;
+  background-image: url("~/assets/img/bg-intro.JPEG");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
 }
 section:nth-child(3) {
-  background: url('/img/bg-experience.JPG') no-repeat center center fixed;
+  background-image: url("~/assets/img/bg-experience.JPG");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
 }
 
 #about, #intro .container, .container-fluid{
@@ -67,25 +75,6 @@ section:nth-child(3) {
   margin: 1em auto;
 }
 
-#intro span.typewriter {
-  width: 33ch;
-  animation: typing 2s steps(22), 
-    blink .5s step-end infinite alternate;
-  border-right: 3px solid;
-}
-
-@keyframes typing {
-  from {
-    width: 0
-  }
-}
-
-@keyframes blink {
-  50% {
-    border-color: transparent
-  }
-}
-
 div.rounded-skill{
   display: inline-block;
   padding: 0;
@@ -98,21 +87,6 @@ div.rounded-skill{
   min-width: 90px;
   min-height: 90px;
   line-height: 5;
-}
-
-div.revese-rounded-skill{
-  display: inline-block;
-  background-color: transparent;
-  border-color: teal;
-  border-style: solid;
-  border-radius: 7em 7em 0em 7em;
-  text-align: center;
-  margin: 10px 10px 10px 0px;
-  min-width: 90px;
-  min-height: 90px;
-  line-height: 5;
-  overflow: hidden;
-  text-overflow: initial;
 }
 
 h1.section-header{
@@ -192,6 +166,7 @@ footer .footer-copyright{
 .main-menu .nav li.delay-1{-webkit-transition-delay:0.1s; -moz-transition-delay:0.1s; -ms-transition-delay:0.1s; -o-transition-delay:0.1s; transition-delay:0.1s; }
 .main-menu .nav li.delay-2{-webkit-transition-delay:0.2s; -moz-transition-delay:0.2s; -ms-transition-delay:0.2s; -o-transition-delay:0.2s; transition-delay:0.2s; }
 .main-menu .nav li.delay-3{-webkit-transition-delay:0.3s; -moz-transition-delay:0.3s; -ms-transition-delay:0.3s; -o-transition-delay:0.3s; transition-delay:0.3s; }
+.main-menu .nav li.delay-4{-webkit-transition-delay:0.4s; -moz-transition-delay:0.4s; -ms-transition-delay:0.4s; -o-transition-delay:0.4s; transition-delay:0.4s; }
 
 .nav-button{position:relative; z-index:1111; border:solid 1px #f8f8f8;  height:42px; display:block; width:50px; padding:12px; }
 .nav-button #nav-icon3{width:24px;height:22px;display:inline-block;position:relative;-webkit-transform:rotate(0deg);-moz-transform:rotate(0deg);-o-transform:rotate(0deg);transform:rotate(0deg);-webkit-transition:.5s ease-in-out;-moz-transition:.5s ease-in-out;-o-transition:.5s ease-in-out;transition:.5s ease-in-out;cursor:pointer;}

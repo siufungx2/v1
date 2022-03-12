@@ -4,7 +4,7 @@ import 'react-vertical-timeline-component/style.min.css';
 
 const TimeLine = ({ Timelineitems }) => {
     return (
-        <section id="timeline" className="min-vh-100">
+        <section id="timeline">
             <div className="container-fuild px-5">
                 <VerticalTimeline animate={false}>
                     {Timelineitems.map( (timelineitem, index) => (

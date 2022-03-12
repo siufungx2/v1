@@ -16,9 +16,9 @@ const TimeLineElement = ({ data }) => {
             <h3 className="vertical-timeline-element-title">{data.title}</h3>
             <h2 className="vertical-timeline-element-subtitle">{data.company}</h2>
             {technologies.map( (technology, index) => (
-                    <p className="badge bg-success m-1" key={index}>{technology}</p>
+                <p className="badge badge-pill bg-success m-1" key={index}>{technology}</p>
             ))}
-
+            <hr className="d-block d-sm-block d-md-none" />
         </VerticalTimelineElement>
     )
 }
