@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "homepage": "http://siufungx2.github.io/v1",
+  "type": "module",
   "scripts": {
     "dev": "next dev",
     "start": "next start",
@@ -16,6 +17,7 @@
   "dependencies": {
     "@popperjs/core": "^2.10.2",
     "@react-icons/all-files": "^4.1.0",
+    "@zeit/next-sass": "^1.0.1",
     "bootstrap": "^5.0.0-beta3",
     "next": "11.1.2",
     "next-compose-plugins": "^2.2.1",
@@ -24,11 +26,13 @@
     "react-dom": "17.0.2",
     "react-typewriter": "^0.4.1",
     "react-vertical-timeline-component": "^3.3.3",
-    "replace-in-file": "^6.2.0"
+    "replace-in-file": "^6.2.0",
+    "sass": "^1.43.2"
   },
   "devDependencies": {
     "eslint": "7.32.0",
     "eslint-config-next": "11.1.2",
-    "gh-pages": "^3.2.3"
+    "gh-pages": "^3.2.3",
+    "postcss-url": "^10.1.3"
   }
 }
