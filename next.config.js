@@ -17,10 +17,10 @@ module.exports = withSass({
 
 module.exports = {
   reactStrictMode: true,
-  assetPrefix: isProd ? 'https://siufungx2.github.io/v1' : '',
+  assetPrefix: isProd ? 'https://www.fungcheung.com/v1' : '',
   basePath: isProd ? '/v1' : '',
   env: {
-    PUBLIC_URL: "https://siufungx2.github.io/v1",
+    PUBLIC_URL: "https://www.fungcheung.com/v1",
   },
   sassOptions: {
     includePaths: [path.join(__dirname, 'styles')],
